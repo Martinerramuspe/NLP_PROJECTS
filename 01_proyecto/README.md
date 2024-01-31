@@ -1,6 +1,11 @@
 # INTRODUCION
 This code does a deep analysis of comment data using Natural Language Processing (NLP), looking at how feelings change over time. It starts with loading data and using advanced models to understand sentiments, and then shows the results in dynamic visuals.
 
+
+I created a video where integration the graphs of script,click [here!](https://www.youtube.com/watch?v=r3Gm5QX-w00)to see
+
+
+![Portada del video](https://img.youtube.com/vi/r3Gm5QX-w00/maxresdefault.jpg)
 ## USED LIST CONCEPTS:
 ### 1. Data Loading and Preprocessing:
    - Downloading data from Google Drive.
