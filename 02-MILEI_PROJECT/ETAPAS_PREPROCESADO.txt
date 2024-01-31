@@ -1,0 +1,16 @@
+Orden de Pasos de Preprocesamiento por Grado de Complejidad:
+
+1. Eliminación de caracteres especiales y números:
+   - Descripción: Elimina caracteres especiales y números del texto para simplificar el contenido. Es el paso más simple de preprocesamiento.
+
+2. Tokenización:
+   - Descripción: Divide las frases en tokens (palabras o subpalabras) utilizando la tokenización proporcionada por la biblioteca Transformers.
+
+3. Eliminación de palabras no relevantes:
+   - Descripción: Elimina palabras comunes que no aportan mucha información al análisis de sentimientos, como stopwords. En este ejemplo, se utilizan las stopwords en español de NLTK.
+
+4. Reconstrucción del texto procesado:
+   - Descripción: Después de realizar el preprocesamiento, se reconstruye el texto procesado para que coincida con la entrada que el modelo espera.
+
+5. Lematización o raíces de palabras:
+   - Descripción: Reduce las palabras a su forma base para reducir la dimensionalidad y ayudar al modelo a generalizar mejor. En este ejemplo, se utiliza un lematizador de Snowball en español. Es considerado más complejo debido a la transformación morfológica de las palabras.
