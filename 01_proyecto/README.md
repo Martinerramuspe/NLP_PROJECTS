@@ -1,5 +1,13 @@
+# PROBLEM
+We need to know the sentiment that the 'landing on Mars' video had. Our tool is a dataset, which contains all the comments captured during the live broadcast on YouTube.
+Click [here!](https://www.youtube.com/watch?v=r3Gm5QX-w00](https://www.kaggle.com/datasets/thomaskonstantin/perseverance-land-on-mars-youtube-live-comments)) to see dataset.
+
 # INTRODUCION
 This code does a deep analysis of comment data using Natural Language Processing (NLP), looking at how feelings change over time. It starts with loading data and using advanced models to understand sentiments, and then shows the results in dynamic visuals.
+It was decided to classify the comments into 3 categories:
+- POSITIVE COMMENTS.
+- NEUTRAL COMMENTS.
+- NEGATIVE COMMENTS.
 
 
 I created a video where integration the graphs of script,click [here!](https://www.youtube.com/watch?v=r3Gm5QX-w00)to see
